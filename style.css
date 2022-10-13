@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Ruda:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #9747FF 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.cabecalho-logo {
+    height: 100px;
+    border-radius: 50px;
+}
+
+.cabecalho-titulo {
+    padding-top: 35px;
+    font-family: 'Marcellus', serif;
+    color: antiquewhite;
+    font: weight 400px;
+    font-size: 20px;
+}
+
+.cabecalho-subtitulo {
+    padding-top: 20px;
+    font-family: 'Ruda', sans-serif;
+    color: antiquewhite;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    align-items: center; 
+    color: antiquewhite;
+    font-family: 'Ruda', sans-serif;
+
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+}
+
+form label span {
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+form input {
+    background: #2c1e35;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: rgba(166, 166, 166,);
+    font-size: 1rem;
+    border: 1px solid #040B18;
+    border-radius: 8px;
+}
+
+.submit {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 30px;
+    background: #9747FF;
+    color: antiquewhite;
+    font-size: 1rem; 
+}
+
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-family: 'Ruda', sans-serif;
+    padding-top: 2rem;
+    color: antiquewhite;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.service {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-two {
+    color: antiquewhite;
+    font-family: 'Marcellus', serif;
+    font-size: 75px;
+    width: 700;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #9747FF;
+}
+
+h5 {
+    color:antiquewhite;
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: 'Ruda', sans-serif;
+}
+
+.pra {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.sobre-nos {
+    background: #9747FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.titulo-sobre-nos {
+    font-size: 80px;
+    font-family: 'Marcellus', serif;
+    font-weight: 400;
+    padding-left: 100px;
+}
+.subtitulo-sobre-nos {
+    font-family: 'Ruda', sans-serif;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 100px;
+}
+.sobre-nos-img {
+    height: 600px;
+    padding: 50px 250px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.final {
+    padding-right: 125px;
+    padding-top: 20px;
+}
+.footer i{
+    padding-left: 125px;
+    padding-top: 20px;
+}
+
